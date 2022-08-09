@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | The Odin Project</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/caab8a0db0.js" crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator__display">
+                <div class="display">
+                    <div class="display-previous"></div>
+                    <div class="display-current">0</div>
+                </div>
+            </div>
+            <div class="calculator__inputs">
+                <button id="reset-btn" class="btn" data-type="reset">AC</button>
+                <button id="delete-btn" class="btn" data-type="delete">&#x21e6</button>
+                <button id="remainder-btn" class="btn" data-type="operator" data-action="remainder" value="%">&#x25</button>
+                <button id="divide-btn" class="btn" data-type="operator" data-action="divide" value="÷">&#xf7</button>
+                <button id="digit-7" class="btn" data-type="number" value="7">7</button>
+                <button id="digit-8" class="btn" data-type="number" value="8">8</button>
+                <button id="digit-9" class="btn" data-type="number" value="9">9</button>
+                <button id="multiply-btn" class="btn" data-type="operator" data-action="multiply" value="x">&#xd7</button>
+                <button id="digit-4" class="btn" data-type="number" value="4">4</button>
+                <button id="digit-5" class="btn" data-type="number" value="5">5</button>
+                <button id="digit-6" class="btn" data-type="number" value="6">6</button>
+                <button id="subtract-btn" class="btn" data-type="operator" data-action="subtract" value="-">&#x2212</button>
+                <button id="digit-1" class="btn" data-type="number" value="1">1</button>
+                <button id="digit-2" class="btn" data-type="number" value="2">2</button>
+                <button id="digit-3" class="btn" data-type="number" value="3">3</button>
+                <button id="addition-btn" class="btn" data-type="operator" data-action="add" value="+">&#x2b</button>
+                <button id="digit-0" class="btn" data-type="number" value="0">0</button>
+                <button id="decimal-btn" class="btn" data-type="decimal" value=".">.</button>
+                <button id="equals-btn" class="btn" data-type="equality">&#x3d</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright © 2022 Jordan Tate</p>
+            <a href="https://github.com/JordanTate">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
