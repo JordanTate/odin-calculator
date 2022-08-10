@@ -5,3 +5,8 @@ Calculator designed by myself using Javascript, in combination with HTML and CSS
 This was the first project to fully test my abilities, I consistently found myself stuck and confused a number of times whilst trying to fine-tune certain features, *such as multiple operators,* but I gave myself time and continued to passively think in my spare time about the makings of the functions I had written and how they play together. That, and along with some help from Google, I finally managed to overcome this project.
 
 For my next step, I will be continuing down The Odin Project's *Full Stack Javascript Path*.
+
+[View Page](https://jordantate.github.io/odin-calculator/)
+
+## Preview
+![Preview](assets/Github/ODIN-CALCULATOR_HOME.png)
