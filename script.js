@@ -90,6 +90,7 @@ calculatorInputs.forEach(input => {
         // Reset Display and storedValues
         } else if (inputType === 'reset'){
             displayCurrent.textContent = 0;
+            displayPrevious.textContent = 0;
             Object.keys(storedValues).forEach(key => storedValues[key]=null);
         // Delete - Remove Single Digit
         } else if (inputType === 'delete'){
